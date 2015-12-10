@@ -1,2 +1,2 @@
 [config]
-DEPLOYMENT_TARGET - /site/wwwroot/wp-content/themes/Rog1/
+DEPLOYMENT_TARGET = /site/wwwroot/wp-content/themes/rog1/
