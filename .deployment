@@ -1,2 +1,2 @@
 [config]
-DEPLOYMENT_TARGET = wp-content\themes\rog1\
+SCM_TARGET_PATH = wp-content\themes\rog1\
