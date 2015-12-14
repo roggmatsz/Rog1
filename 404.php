@@ -5,6 +5,10 @@
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
  * @package Rog1
+ php_esc_e($text) = used to display text
+ the_widget($widget, $instance, $args) = used to display arbitrary widgets outside the sidebar
+ get_search_form() = display search form
+ 
  */
 
 get_header(); ?>
