@@ -895,4 +895,6 @@ object {
 ## Custom Mods
 --------------------------------------------------------------*/
 
-header .site-header * {border: 1px solid cyan;}
+#masthead.site-header, #masthead.site-header * {
+	border: 1px solid cyan;
+}
