@@ -526,6 +526,7 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: #061A40;
 }
 
 .main-navigation ul {
@@ -543,6 +544,9 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding: 10px;
+	color: #E6ECF2;
+	font-size: 1.3rem;
 }
 
 .main-navigation ul ul {
@@ -889,12 +893,4 @@ object {
 
 .gallery-caption {
 	display: block;
-}
-
-/*--------------------------------------------------------------
-## Custom Mods
---------------------------------------------------------------*/
-
-#masthead.site-header, #masthead.site-header * {
-	border: 1px solid cyan;
 }
