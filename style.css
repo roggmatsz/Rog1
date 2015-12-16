@@ -492,12 +492,14 @@ textarea {
 /*--------------------------------------------------------------
 # Logo / Branding
 --------------------------------------------------------------*/
+header.site-header {
+	background-color: #F2EDF0;
+}
 div.site-branding {
 	display:flex;
 	flex-direction: column;
 }
 h1.site-title {
-	border:1px solid cyan;
 	margin-bottom: 0;
 	display: flex;
 	justify-content: center;
@@ -508,12 +510,18 @@ h1.site-title a {
 	letter-spacing: 10px;
 	font-family: Verdana, Geneva;
 	text-transform: uppercase;
-	color: #061A40;
+	color: black;
 	font-size: 3.5rem;
 }
 p.site-description {
-	border:1px solid magenta;
+	letter-spacing: 1px;
 	margin-top:0;
+	display: flex;
+	justify-content: center;
+	font-family: "Arial Narrow", sans-serif;
+	color: #888;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -548,10 +556,6 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-h1.site-title a {
-	text-decoration:none;
-}
-
 .main-navigation {
 	clear: both;
 	display: block;
