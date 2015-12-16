@@ -490,6 +490,33 @@ textarea {
 }
 
 /*--------------------------------------------------------------
+# Logo / Branding
+--------------------------------------------------------------*/
+div.site-branding {
+	display:flex;
+	flex-direction: column;
+}
+h1.site-title {
+	border:1px solid cyan;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+h1.site-title a {
+	text-decoration: none;
+	padding: 0 15px;
+	letter-spacing: 10px;
+	font-family: Verdana, Geneva;
+	text-transform: uppercase;
+	color: #061A40;
+	font-size: 3.5rem;
+}
+p.site-description {
+	border:1px solid magenta;
+	margin-top:0;
+}
+
+/*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -521,6 +548,10 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+h1.site-title a {
+	text-decoration:none;
+}
+
 .main-navigation {
 	clear: both;
 	display: block;
